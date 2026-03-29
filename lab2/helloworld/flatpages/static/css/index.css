@@ -1,0 +1,40 @@
+body{
+    background:#1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color:#333;
+}
+
+/* Задание 1: Шрифт с засечками для заголовка первого уровня */
+h1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+table{
+    border-collapse: collapse;
+    /* Задание 4: Ширина таблицы 100% экрана */
+    width: 100%;
+}
+
+/* Задание 3: Разделяем стили для p и h4, чтобы изменить размер только у h4 */
+p {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 14px; /* Было 22px, стало 14px */
+    margin-bottom: 0;
+}
+
+ul, ol{
+    margin: 0;
+}
+
+table tr td{
+    padding: 5px;
+}
+
+/* Задание 2: Высота картинки 30px */
+img {
+    height: 30px;
+}
