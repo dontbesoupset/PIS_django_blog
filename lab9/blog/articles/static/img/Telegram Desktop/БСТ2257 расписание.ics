@@ -1,0 +1,238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claude//BST2257//RU
+CALSCALE:GREGORIAN
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bst2257-001@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260330T151000
+DTEND;TZID=Europe/Moscow:20260330T164000
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Лабораторные работы)
+DESCRIPTION:Долгопятова А. В.\nАудитория (дистанционно)\nМетоды и средства защиты информации в компьютерных сетях (Лабораторные работы)\nГорин М. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-002@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260330T165500
+DTEND;TZID=Europe/Moscow:20260330T182500
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Лабораторные работы)
+DESCRIPTION:Долгопятова А. В.\nАудитория (дистанционно)\nМетоды и средства защиты информации в компьютерных сетях (Лабораторные работы)\nГорин М. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-003@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260331T130000
+DTEND;TZID=Europe/Moscow:20260331T143000
+SUMMARY:Моделирование систем и процессов (Лабораторные работы)
+DESCRIPTION:Панкратов Д. Ю.\nАудитория (дистанционно)\nМоделирование систем и процессов (Лабораторные работы)\nДолгопятова А. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-004@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260331T151000
+DTEND;TZID=Europe/Moscow:20260331T164000
+SUMMARY:Моделирование систем и процессов (Лабораторные работы)
+DESCRIPTION:Панкратов Д. Ю.\nАудитория (дистанционно)\nМоделирование систем и процессов (Лабораторные работы)\nДолгопятова А. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-005@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260331T165500
+DTEND;TZID=Europe/Moscow:20260331T182500
+SUMMARY:Метрология, стандартизация и сертификация (Лабораторные работы)
+DESCRIPTION:Грычкин С. Е.\nАудитория (дистанционно)\nМетрология, стандартизация и сертификация (Лабораторные работы)\nШестаков В. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-006@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260331T184000
+DTEND;TZID=Europe/Moscow:20260331T201000
+SUMMARY:Метрология, стандартизация и сертификация (Лабораторные работы)
+DESCRIPTION:Грычкин С. Е.\nАудитория (дистанционно)\nМетрология, стандартизация и сертификация (Лабораторные работы)\nШестаков В. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-007@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260401T093000
+DTEND;TZID=Europe/Moscow:20260401T110000
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Практические занятия)
+DESCRIPTION:Симонян А. Г.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-008@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260401T111500
+DTEND;TZID=Europe/Moscow:20260401T124500
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Практические занятия)
+DESCRIPTION:Симонян А. Г.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-009@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260401T130000
+DTEND;TZID=Europe/Moscow:20260401T143000
+SUMMARY:Моделирование систем и процессов (Практические занятия)
+DESCRIPTION:Панкратов Д. Ю.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-010@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260401T151000
+DTEND;TZID=Europe/Moscow:20260401T164000
+SUMMARY:Моделирование систем и процессов (Зачет)
+DESCRIPTION:Панкратов Д. Ю.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-011@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260402T111500
+DTEND;TZID=Europe/Moscow:20260402T124500
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Лабораторные работы)
+DESCRIPTION:Долгопятова А. В.\nАудитория (дистанционно)\nМетоды и средства защиты информации в компьютерных сетях (Лабораторные работы)\nГорин М. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-012@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260402T130000
+DTEND;TZID=Europe/Moscow:20260402T143000
+SUMMARY:Системы искусственного интеллекта (Лабораторные работы)
+DESCRIPTION:Шишкин К. С.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-013@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260402T151000
+DTEND;TZID=Europe/Moscow:20260402T164000
+SUMMARY:Системы искусственного интеллекта (Лабораторные работы)
+DESCRIPTION:Шишкин К. С.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-014@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260402T165500
+DTEND;TZID=Europe/Moscow:20260402T182500
+SUMMARY:Метрология, стандартизация и сертификация (Зачет)
+DESCRIPTION:Шестаков В. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-015@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260403T151000
+DTEND;TZID=Europe/Moscow:20260403T164000
+SUMMARY:Метрология, стандартизация и сертификация (Лабораторные работы)
+DESCRIPTION:Грычкин С. Е.\nАудитория (дистанционно)\nМетрология, стандартизация и сертификация (Лабораторные работы)\nШестаков В. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-016@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260403T165500
+DTEND;TZID=Europe/Moscow:20260403T182500
+SUMMARY:Метрология, стандартизация и сертификация (Лабораторные работы)
+DESCRIPTION:Грычкин С. Е.\nАудитория (дистанционно)\nМетрология, стандартизация и сертификация (Лабораторные работы)\nШестаков В. В.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-017@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260403T184000
+DTEND;TZID=Europe/Moscow:20260403T201000
+SUMMARY:Прикладные информационные системы (Практические занятия)
+DESCRIPTION:Полянцева К. А.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-018@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260403T202500
+DTEND;TZID=Europe/Moscow:20260403T215500
+SUMMARY:Прикладные информационные системы (Практические занятия)
+DESCRIPTION:Полянцева К. А.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-019@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260407T184000
+DTEND;TZID=Europe/Moscow:20260407T201000
+SUMMARY:Прикладные информационные системы (Лабораторные работы)
+DESCRIPTION:Полянцева К. А.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-020@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260407T202500
+DTEND;TZID=Europe/Moscow:20260407T215500
+SUMMARY:Прикладные информационные системы (Лабораторные работы)
+DESCRIPTION:Полянцева К. А.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-021@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260408T165500
+DTEND;TZID=Europe/Moscow:20260408T182500
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Курсовая работа)
+DESCRIPTION:Руднев А. Н.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-022@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260408T184000
+DTEND;TZID=Europe/Moscow:20260408T201000
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (консультация)
+DESCRIPTION:Симонян А. Г.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-023@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260409T093000
+DTEND;TZID=Europe/Moscow:20260409T110000
+SUMMARY:Методы и средства защиты информации в компьютерных сетях (Экзамен)
+DESCRIPTION:Симонян А. Г.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-024@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260410T111500
+DTEND;TZID=Europe/Moscow:20260410T124500
+SUMMARY:Системы искусственного интеллекта (Практические занятия)
+DESCRIPTION:Шишкин К. С.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-025@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260410T130000
+DTEND;TZID=Europe/Moscow:20260410T143000
+SUMMARY:Прикладные информационные системы (Практические занятия)
+DESCRIPTION:Полянцева К. А.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-026@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260410T151000
+DTEND;TZID=Europe/Moscow:20260410T164000
+SUMMARY:Прикладные информационные системы (Зачет)
+DESCRIPTION:Полянцева К. А.\nАудитория (дистанционно)
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-027@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260410T184000
+DTEND;TZID=Europe/Moscow:20260410T201000
+SUMMARY:Системы искусственного интеллекта (консультация)
+DESCRIPTION:Яшина М. В.
+END:VEVENT
+BEGIN:VEVENT
+UID:bst2257-028@schedule
+DTSTAMP:20260325T202722
+DTSTART;TZID=Europe/Moscow:20260413T165500
+DTEND;TZID=Europe/Moscow:20260413T182500
+SUMMARY:Системы искусственного интеллекта (Экзамен)
+DESCRIPTION:Яшина М. В.\nАудитория (дистанционно)
+END:VEVENT
+END:VCALENDAR

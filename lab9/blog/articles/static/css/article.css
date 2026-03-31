@@ -1,0 +1,310 @@
+/* --- Общие стили для обеих страниц --- */
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* ========== Стили для параллакса (ЛР 9) ========== */
+
+/* Новая шапка */
+.archive .header {
+    background: #a8dcd2;
+    padding: 40px 0 40px 0;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Логотип по центру */
+.logo-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.archive .logo {
+    width: 318px;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.archive .logo:hover {
+    transform: scale(1.05);
+}
+
+/* Контейнер для левой части (ссылки + надпись) и правой части (иконки) */
+.header-bottom-row {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Левая часть: ссылки и надпись */
+.header-left {
+    text-align: left;
+}
+
+/* Ссылки авторизации */
+.auth-links {
+    margin-bottom: 10px;
+}
+
+.auth-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+.auth-links span {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+/* Надпись "Коллективный блог" - под ссылками */
+.service-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Иконки для параллакса - диагональ из левого нижнего угла в правый верхний */
+.icons-for-parallax {
+    position: relative;
+    height: 350px;
+    width: 600px;
+}
+
+.icons-for-parallax img {
+    position: absolute;
+    transition: transform 0.05s linear;
+}
+
+.icons-for-parallax img:hover {
+    transform: none !important;
+    scale: 1 !important;
+}
+
+/* Первая иконка (передний план) - правый верхний угол */
+.icon-for-parallax-first {
+    width: 180px;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+/* Вторая иконка (средний план) - середина диагонали */
+.icon-for-parallax-second {
+    width: 155px;
+    right: 90px;
+    top: 110px;
+    z-index: 2;
+}
+
+/* Третья иконка (задний план) - левый нижний угол */
+.icon-for-parallax-third {
+    width: 130px;
+    right: 170px;
+    top: 220px;
+    z-index: 1;
+}
+
+/* Контент архива */
+.archive-content {
+    width: 960px;
+    margin: 0 auto;
+    background: #1abc9c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.archive-content .one-post {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Стили для постов */
+.post-title a {
+    color: #ffffff;
+}
+
+/* Ссылка "Все записи" для страницы статьи */
+.article .header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; 
+}
+
+.article .header img {
+    float: left;
+    margin: 0;
+}
+
+.article .header .all-posts-link {
+    float: right;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 100px;
+    font-weight: bold;       
+    text-decoration: underline;  
+}
+
+.article .header .all-posts-link:hover {
+    text-decoration: underline;
+}
+
+/* Контент статьи */
+.article-content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Автор и дата */
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+/* --- Стили для страницы создания поста --- */
+.content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content h1 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content input[type="text"],
+.content textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.content textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.content input[type="submit"] {
+    background: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: auto;
+    align-self: flex-start;
+}
+
+.content input[type="submit"]:hover {
+    background: #16a085;
+}
+
+/* Ошибки формы */
+.errorlist {
+    color: #000000 !important;
+    background: #ffdddd !important;
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 15px 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.errorlist li {
+    margin: 5px 0;
+    color: #000000 !important;
+}
+
+/* Скрытие элементов при сворачивании */
+.one-post.folded .article-author,
+.one-post.folded .article-created-date,
+.one-post.folded .article-text {
+    display: none !important;
+}
+
+.fold-button {
+    display: inline-block;
+    background: #ffffff;
+    color: #1abc9c;
+    border: 2px solid #ffffff;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-family: Tahoma, Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    float: right;           
+    margin-left: 15px;      
+    margin-top: 0;         
+}
+
+.post-managment {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    float: left;
+    margin: 0;
+    width: calc(100% - 120px);
+}
+
+/* Стили для подсветки постов */
+.one-post {
+    position: relative; 
+    overflow: hidden;   
+}
+
+.one-post-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: -1; 
+    opacity: 0;  
+}
